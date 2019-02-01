@@ -5,8 +5,8 @@
     <description>Say No! To Fake News!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Feb 2019 00:28:04 +0530</pubDate>
-    <lastBuildDate>Sat, 02 Feb 2019 00:28:04 +0530</lastBuildDate>
+    <pubDate>Sat, 02 Feb 2019 01:32:32 +0530</pubDate>
+    <lastBuildDate>Sat, 02 Feb 2019 01:32:32 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -27,11 +27,9 @@ Siddaramaiah was addressing a public rally in Jamakhandi of Bagalkot district in
 &lt;p&gt;&lt;img src=&quot;https://bit.ly/2TalcDQ&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/politics/2018/06/12/powerful-things-markdown-editor.html</link>
-        <guid isPermaLink="true">http://localhost:4000/politics/2018/06/12/powerful-things-markdown-editor.html</guid>
+        <link>http://localhost:4000/2018/06/12/pos-1-about-some-random-politics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/12/pos-1-about-some-random-politics.html</guid>
         
-        
-        <category>Politics</category>
         
       </item>
     

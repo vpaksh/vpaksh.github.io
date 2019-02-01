@@ -2,7 +2,6 @@
 layout: post
 title:  "PM Modi will soon be jailed over Rafale deal"
 author: VPaksh
-categories: [ Politics ]
 image: https://bit.ly/2TiY1ao
 ---
 PM Modi will soon be jailed over Rafale deal, claims former Karnataka CM Siddaramaiah

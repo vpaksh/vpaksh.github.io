@@ -51,7 +51,6 @@ defaults:
     values:
       image: ""
       meta: ""
-      categories: []
       author: ""
       layout: post
   -
