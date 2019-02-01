@@ -1,0 +1,64 @@
+# Site
+title: VPaksh
+name: "VPaksh"
+description: "Say No! To Fake News!"
+meta_description: "Vpaksh belongs to YOU. Vpaksh belongs to US. People, who are not going to sit dumbstruck watching and following every norm of government."
+logo: 'assets/images/log.png'
+favicon: 'assets/images/favicon.ico'
+google_analytics: 'UA'
+disqus: 'vpakshsite'
+mailchimp-list: ''
+
+# Authors
+authors:
+  vpaksh:
+    name: VPaksh
+    display_name: VPaksh
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.vpaksh.in
+    twitter: https://twitter.com/vpaksh
+    description: "Vpaksh belongs to YOU. Vpaksh belongs to US. People, who are not going to sit dumbstruck watching and following every norm of government."
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-admin
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+#Defaults for Posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      image: ""
+      meta: ""
+      categories: []
+      author: ""
+      layout: post
+  -
+    scope:
+      path: ""
+      type: 'pages'
+    values:
+      image: ""
+      meta: ""
+      layout: page

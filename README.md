@@ -1,2 +1,3 @@
-# vpaksh.github.io
-Official Repo of VPaksh India
+# VPaksh Media
+
+[Click here to visit the website](https://vpaksh.github.io)

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPaksh</title>
+    <description>Say No! To Fake News!</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 02 Feb 2019 05:02:08 +0530</pubDate>
+    <lastBuildDate>Sat, 02 Feb 2019 05:02:08 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>PM Modi will soon be jailed over Rafale deal</title>
+        <description>&lt;p&gt;PM Modi will soon be jailed over Rafale deal, claims former Karnataka CM Siddaramaiah
+VPaksh.in
+The Congress has been attacking Modi government for refusing to furnish details of the Rafale deal.
+Siddaramaiah was addressing a public rally in Jamakhandi of Bagalkot district in Karnataka on Thursday, November 1 when he made the statement.&lt;/p&gt;
+
+&lt;p&gt;The Congress has been attacking Modi government for refusing to furnish details of the Rafale deal. The party accused the government of causing huge loss of taxpayer’s money by signing the deal worth Rs 58,000 crore with French manufacturers Dassault. The party also alleged that the cost of each aircraft is thrice more than the negotiations made by the previous UPA government in 2012.&lt;/p&gt;
+
+&lt;p&gt;Siddaramaiah also recalled the time when state BJP president BS Yeddyurappa had gone to jail on alleged corruptions charges and schemes, Deccan Chronicle reported.&lt;/p&gt;
+
+&lt;p&gt;He also hit back at the Centre for raising only communal issues mostly based on religious sentiments like Ram temple and Hindutva. He challenged the BJP to seek votes on the basis of the development work carried out by the Modi government.&lt;/p&gt;
+
+&lt;p&gt;He alleged that the saffron party always believed in communal politics and dividing the nation by raising religiously sensitive issues, the daily reported.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bit.ly/2TalcDQ&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jun 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/politics/2018/06/12/powerful-things-markdown-editor.html</link>
+        <guid isPermaLink="true">http://localhost:4000/politics/2018/06/12/powerful-things-markdown-editor.html</guid>
+        
+        
+        <category>Politics</category>
+        
+      </item>
+    
+  </channel>
+</rss>
