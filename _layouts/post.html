@@ -8,19 +8,19 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 <div class="container">
-	<div class="row">
+    <div class="row">
 
-		<!-- Post Share -->
-		<div class="col-md-2 pl-0">            
-           {% include share.html %}  
-		</div>
-		
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
 
-		<!-- Post -->        
+
+        <!-- Post -->
         {% assign author = site.authors[page.author] %}
-        
-		<div class="col-md-9 flex-first flex-md-unordered">
-			<div class="mainheading">
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
 
                 <!-- Author Box -->
                 <!-- {% if page.author %}				
@@ -34,63 +34,81 @@ post_class: post-template
 					</div>
 				</div>				 -->
                 {% endif %}
-                
+
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
-                
-			</div>
+                <h1 class="posttitle">{{ page.title }}</h1>
+            </div>
 
-			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
-			<!-- End Featured Image -->
+            <!-- Post Featured Image -->
+            {% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{
+                page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
+            <!-- End Featured Image -->
 
-			<!-- Post Content -->
-			<div class="article-post">
-				{{content}}
-			</div>
+            <!-- Post Content -->
+            <div class="article-post">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle" data-ad-format="fluid" data-ad-layout-key="-5z+cx+56-f3+1q" data-ad-client="ca-pub-4747497961433710"
+                    data-ad-slot="1766730905"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <!-- CONTENT GOES HERE -->
+                {{content}}
+                <!-- CONTENT GOES HERE -->
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle" data-ad-format="fluid" data-ad-layout-key="-5z+cx+56-f3+1q" data-ad-client="ca-pub-4747497961433710"
+                    data-ad-slot="1766730905"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
 
             <!-- Post Date -->
             <p>
-            <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-                {% endif %}
+                <small>
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{
+                            page.date | date_to_string }}</time></span>
+                    {% if page.last_modified_at %}
+                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{
+                        page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                    {% endif %}
                 </small>
             </p>
-            
+
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
-            <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo; </a>
-            {% endif %}
-            <div class="clearfix"></div>
+                {% if page.previous.url %}
+                <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo;
+                    {{page.previous.title}}</a>
+                {% endif %}
+                {% if page.next.url %}
+                <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}}
+                    &raquo; </a>
+                {% endif %}
+                <div class="clearfix"></div>
             </div>
             <!-- End Categories -->
 
-		</div>
-		<!-- End Post -->
+        </div>
+        <!-- End Post -->
 
-	</div>
+    </div>
 </div>
 <!-- End Article
 ================================================== -->
 
-  
+
 
 <!-- Begin Comments
 ================================================== -->
 {% if page.comments != false %}
-    <div class="container">
-        <div id="comments" class="row justify-content-center mb-5">
-            <div class="col-md-8">              
-                {% include disqus.html %}                
-            </div>
+<div class="container">
+    <div id="comments" class="row justify-content-center mb-5">
+        <div class="col-md-8">
+            {% include disqus.html %}
         </div>
     </div>
+</div>
 {% endif %}
 <!--End Comments
 ================================================== -->
