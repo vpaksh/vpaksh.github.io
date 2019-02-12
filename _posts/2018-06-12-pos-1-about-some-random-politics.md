@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "PM Modi will soon be jailed over Rafale deal"
-author: VPaksh
+title: PM Modi will soon be jailed over Rafale deal
 image: https://bit.ly/2TiY1ao
+author: VPaksh
+layout: post
 ---
+
 PM Modi will soon be jailed over Rafale deal, claims former Karnataka CM Siddaramaiah
 VPaksh.in
 The Congress has been attacking Modi government for refusing to furnish details of the Rafale deal.
@@ -17,5 +18,3 @@ Siddaramaiah also recalled the time when state BJP president BS Yeddyurappa had 
 He also hit back at the Centre for raising only communal issues mostly based on religious sentiments like Ram temple and Hindutva. He challenged the BJP to seek votes on the basis of the development work carried out by the Modi government.
 
 He alleged that the saffron party always believed in communal politics and dividing the nation by raising religiously sensitive issues, the daily reported.
-
-<p><img src="https://bit.ly/2TalcDQ"/></p>
